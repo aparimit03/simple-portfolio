@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aparimit Rathour - Portfolio</title>
+    <!--css link-->
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" type="image/png" href="favicon.png"/>
+
+    <!--icon link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--font link-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">  
+</head>
+
+<body>
+    <!-- main -->
+    <main>
+        
+    <!-- sidebar -->
+        <aside class="sidebar" data-sidebar>
+
+            <div class="sidebar-info">
+
+                <figure class="avtar-box">
+                    <img src="img/my-avatar.png" width="80">
+                </figure>
+
+                <div class="info-contents">
+                    <h1 class="name" title="Aparimit Rathour">Aparimit Rathour</h1>
+                    <p class="title">Software Developer</p>
+                </div>
+
+                <button class="info-more-btn" data-sidebar-btn>
+                    <span>Show Contacts</span>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </button>
+            </div>
+
+            <div class="sidebar-info-more">
+                <div class="separator"></div>
+                <ul class="contact-list">
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+                            <a href="mailto:aparimit2003@gmail.com" class="contact-link">aparimit2003@gmail.com</a>
+                        </div>
+                    </li>
+
+                    <!-- <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Phone</p>
+                            <a href="tel:+919044742129" class="contact-link">+91 9044742129</a>
+                        </div>
+                    </li> -->
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Location</p>
+                            <address>Delhi-NCR, India</address>
+                        </div>
+                    </li>
+
+                </ul>
+
+                <div class="separator"></div>
+
+                <ul class="social-list">
+
+                    <li class="social-item">
+                        <a href="https://www.linkedin.com/in/aparimit03/" class="social-link">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li class="social-item">
+                        <a href="https://leetcode.com/u/aparimit2003/" class="social-link">
+                            <ion-icon name="code-slash-outline"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li class="social-item">
+                        <a href="https://github.com/aparimit03/" class="social-link">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                    </li>
+
+                    <!-- <li class="social-item">
+                        <a href="https://play.google.com/store/apps/developer?id=Sidharth_Kapoor" class="social-link">
+                            <ion-icon name="logo-google-playstore"></ion-icon>
+                        </a>
+                    </li> -->
+
+                </ul>
+            </div>
+        </aside>
+
+    <!-- main content -->
+
+    <div class="main-content">
+
+        <!-- navbar -->
+
+        <nav class="navbar">
+            <ul class="navbar-list">
+                <li class="navbar-item">
+                    <button class="navbar-link active" data-nav-link>About</button>
+                </li>
+
+                <li class="navbar-item">
+                    <button class="navbar-link" data-nav-link>Summary</button>
+                </li>
+
+                <li class="navbar-item">
+                    <a href="https://drive.google.com/file/d/1VCx5jszKik9a1L7Z8vIDt7wPl9rX0w78/view?usp=sharing" class="navbar-link" download>Resume</a>
+                </li>
+
+                <li class="navbar-item">
+                    <button class="navbar-link" data-nav-link>Projects</button>
+                </li>
+
+                <li class="navbar-item">
+                    <button class="navbar-link" data-nav-link>Contact</button>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- about -->
+
+        <article class="about active" data-page="about">
+
+            <header>
+                <h2 class="h2 article-title">About Me</h2>
+            </header>
+
+            <section class="about-text">
+                I am a passionate software developer with a focus on Android development using Kotlin. I have hands-on experience in developing native apps, integrating modern Material 3 designs. I’m always exploring new technologies and enjoy solving complex problems through efficient code.
+                <p>
+                </p>
+                <p>
+                    Currently pursuing B.Tech from ABES Engineering College. I am dedicated to expanding my knowledge and skills in software development.
+                </p>
+            </section>
+
+        
+
+        <!-- service -->
+
+        <section class="service">
+            <h3 class="h3 service-title">What I'm doing</h3>
+            <ul class="service-list">
+                <li class="service-item">
+                    <div class="service-icon-box">
+                        <img src="img/icon-app.svg" alt="Mobile app icon" width="40">
+                    </div>
+
+                    <div class="service-content-box">
+                        <h4 class="h4 service-item-title">Android Development</h4>
+                        <p class="service-item-text"> Creating Android apps with sleek design and performance.
+                    </div>
+                </li>
+
+                <!-- <li class="service-item">
+                    <div class="service-icon-box">
+                        <img src="img/icon-dev.svg" alt="web development icon" width="40">
+                    </div>
+
+                    <div class="service-content-box">
+                        <h4 class="h4 service-item-title">Backend Development</h4>
+                        <p class="service-item-text"> Developing secure, scalable backends with Spring and Spring Boot.
+                        </p>
+                    </div>
+                </li> -->
+
+            </ul>
+        </section>
+
+        <section class="service">
+            <h3 class="h3 service-title">What I'm Learning</h3>
+            <ul class="service-list">
+                <li class="service-item">
+                    <div class="service-icon-box">
+                        <img src="img/icon-design.svg" alt="design icon" width="40">
+                    </div>
+
+                    <div class="service-content-box">
+                        <h4 class="h4 service-item-title">Web Development</h4>
+                        <p class="service-item-text"> Learning to build websites with modern web technologies and MERN framework.
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <!-- testmonials -->
+
+        <!-- <section class="testimonials">
+
+            <h3 class="h3 testimonials-title">Testimonials</h3>
+
+            <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                    <img src="img/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Rajveer Shekhawat</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                        Sidharth showed remarkable skills and dedication during their internship at BlueSapling. They excelled at integrating complex features into our Distributo app, from streamlining receipt printing to refining the UI design. Their problem-solving abilities and commitment to high-quality work truly stood out, making them an invaluable member of our team.
+                    </p>
+                </div>
+
+                </div>
+            </li>
+
+            <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                    <img src="img/avatar-4.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Amit Sharma</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                        Sidharth made a significant impact during their internship at Artesian Software Technologies. Their expertise in Kotlin Multiplatform and their creative approach to developing the Median app highlighted their strong technical skills. Sidharth effortlessly managed both Android and iOS development tasks and brought a collaborative spirit that our team greatly appreciated.
+                    </p>
+                </div>
+
+                </div>
+            </li>
+
+            <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                    <img src="img/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Hemang Sinha</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                        Sidharth was an outstanding Android development mentor at IEEE DTU. Their enthusiasm for teaching and deep knowledge of Android technologies truly inspired our students. Sidharth had a knack for simplifying complex concepts and offered hands-on guidance that created a welcoming learning atmosphere. 
+                    </p>
+                </div>
+
+                </div>
+            </li>
+
+            </ul>
+
+        </section> -->
+        
+        <!-- testimonials modal -->
+
+        <div class="modal-container" data-modal-container>
+
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                <img src="img/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+                </figure>
+
+                <img src="img/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+                <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+                <time datetime="2024-08-27" data-modal-date>27th August 2024</time>
+
+                <div data-modal-text>
+                <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+                </div>
+
+            </div>
+
+            </section>
+
+        </div>
+
+
+        </article>
+
+        <!-- summary -->
+
+        <article class="summary" data-page="summary">
+
+            <header>
+                <h2 class="h2 article-title">Summary</h2>
+            </header>
+
+            <section class="timeline">
+                <div class="title-wrapper">
+                    <div class="icon-box">
+                        <ion-icon name="book-outline"></ion-icon>
+                    </div>
+
+                    <h3 class="h3">Education</h3>
+                </div>
+
+                <ol class="timeline-list">
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">B.Tech in CSE(AIML) - ABES Engineering College</h4>
+                        <span>Dec 2021 - May 2025</span>
+                        <p class="timeline-text">CGPA - 7.65</p>
+                        <!-- <p class="timeline-text">
+                            • Achieved a global ranking of 1333 in LeetCode's Weekly Contest 415 and currently hold a rating of 1770 on LeetCode.
+                        </p>
+                        <p class="timeline-text">
+                            • Solved 500+ DSA problems on different coding platforms like Leetcode, HackerRank, and Code Studio.
+                        </p>
+                        <p class="timeline-text">
+                            • Received IEEE Delhi Section Outstanding Women in Engineering Award for promoting women in STEM.
+                        </p>
+                        <p class="timeline-text">
+                            • Won ERROR 404 and Promptify competitions at INVICTUS’24, the Annual Technical festival of DTU.
+                        </p>
+                        <p class="timeline-text">
+                            • Secured 2nd Place in the Women's Safety Track at IEEE DAY's Ideathon organized by MODY University.
+                        </p> -->
+                    </li>
+
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">Class XII - Dr. Virendra Swarup Public School</h4>
+                        <span>Apr 2021</span>
+                        <p class="timeline-text">
+                            89%
+                        </p>
+                    </li>
+
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">Class X - Dr. Virendra Swarup Public School</h4>
+                        <span>Apr 2019</span>
+                        <p class="timeline-text">
+                            94%
+                        </p>
+                    </li>
+
+                </ol>
+            </section>
+
+            <section class="timeline">
+                <!-- <div class="title-wrapper">
+                    <div class="icon-box">
+                        <ion-icon name="book-outline"></ion-icon>
+                    </div>
+                    <h3 class="h3">Experience</h3>
+                </div> -->
+
+                <ol class="timeline-list">
+                    <!-- <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">Product Management Intern - VortexWeb</h4>
+                        <span>Jan 2025 - Current</span>
+                        <p class="timeline-text"></p>
+                    </li> -->
+
+                    <!-- <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">Software Developer Intern - Artesian Software Technologies LLP</h4>
+                        <span>Dec 2023 - Feb 2024</span>
+                        <p class="timeline-text">
+                            • Designed Median with separate UIs for Android and iOS, which resulted in 98% positive feedback from users.
+                        </p>
+                        <p class="timeline-text">
+                            • Optimized performance with shared networking via Ktor, reducing API call latency by 25% across platforms.
+                        </p>
+                        <p class="timeline-text">
+                            • Implemented flexible filters (price, rating, category, distance), reducing search time for meeting points by 30%.
+                        </p>
+                    </li> -->
+                </ol>
+            </section>
+
+            <section class="timeline">
+                <div class="title-wrapper">
+                    <div class="icon-box">
+                        <ion-icon name="book-outline"></ion-icon>
+                    </div>
+                    <h3 class="h3">Position of Responsibility</h3>
+                </div>
+
+                <ol class="timeline-list">
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">Vice-President of GeeksForGeeks ABESEC Student Chapter</h4>
+                        <span>June 2023 - June 2024</span>
+                        <p class="timeline-text">
+                            • Successfully organized technical workshops and webinars, benefiting over 1,000 students.
+                        </p>
+                    </li>
+
+                    <!-- <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">XYZ</h4>
+                        <span>Jul 20xx - May 20xx</span>
+                        <p class="timeline-text"></p>
+                        </p>
+                    </li> -->
+                </ol>
+            </section>
+
+            <!-- skill -->
+
+            <section class="skills">
+                <h3 class="h3 skills-title">My skills</h3>
+
+                <ul class="skills-list content-card">
+                    
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h5 class="h5">C/C++</h5>
+                            <!-- <data value="80">80%</data> -->
+                        </div>
+
+                        <!-- <div class="skills-progress-bg">
+                            <div class="skills-progress-fill" style="width: 80%;"></div>
+                        </div> -->
+                    </li>
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h5 class="h5">Object Oriented Programming</h5>
+                            <!-- <data value="80">80%</data> -->
+                        </div>
+
+                        <!-- <div class="skills-progress-bg">
+                            <div class="skills-progress-fill" style="width: 80%;"></div>
+                        </div> -->
+                    </li>
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h5 class="h5">Kotlin</h5>
+                            <!-- <data value="80">80%</data> -->
+                        </div>
+
+                        <!-- <div class="skills-progress-bg">
+                            <div class="skills-progress-fill" style="width: 80%;"></div>
+                        </div> -->
+                    </li>
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h5 class="h5">Jetpack Compose</h5>
+                            <!-- <data value="80">80%</data> -->
+                        </div>
+
+                        <!-- <div class="skills-progress-bg">
+                            <div class="skills-progress-fill" style="width: 80%;"></div>
+                        </div> -->
+                    </li>
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h5 class="h5">Git/Github</h5>
+                            <!-- <data value="80">80%</data> -->
+                        </div>
+
+                        <!-- <div class="skills-progress-bg">
+                            <div class="skills-progress-fill" style="width: 80%;"></div>
+                        </div> -->
+                    </li>
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h5 class="h5">Firebase</h5>
+                            <!-- <data value="80">80%</data> -->
+                        </div>
+
+                        <!-- <div class="skills-progress-bg">
+                            <div class="skills-progress-fill" style="width: 80%;"></div>
+                        </div> -->
+                    </li>
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h5 class="h5">Ktor</h5>
+                            <!-- <data value="80">80%</data> -->
+                        </div>
+
+                        <!-- <div class="skills-progress-bg">
+                            <div class="skills-progress-fill" style="width: 80%;"></div>
+                        </div> -->
+                    </li>
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h5 class="h5">JavaScript</h5>
+                            <!-- <data value="80">80%</data> -->
+                        </div>
+
+                        <!-- <div class="skills-progress-bg">
+                            <div class="skills-progress-fill" style="width: 80%;"></div>
+                        </div> -->
+                    </li>
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h5 class="h5">NodeJS</h5>
+                            <!-- <data value="80">80%</data> -->
+                        </div>
+
+                        <!-- <div class="skills-progress-bg">
+                            <div class="skills-progress-fill" style="width: 80%;"></div>
+                        </div> -->
+                    </li>
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h5 class="h5">ExpressJS</h5>
+                            <!-- <data value="80">80%</data> -->
+                        </div>
+
+                        <!-- <div class="skills-progress-bg">
+                            <div class="skills-progress-fill" style="width: 80%;"></div>
+                        </div> -->
+                    </li>
+                </ul>
+            </section>
+        </article>
+
+        <!-- projects -->
+
+        <article class="portfolio" data-page="projects">
+
+            <header>
+                <h2 class="h2 article-title">Projects</h2>
+            </header>
+
+            <section class="projects">
+
+                <!-- <ul class="filter-list">
+
+                    <li class="filter-item">
+                        <button class="active" data-filter-btn>All</button>
+                    </li>
+
+                    <li class="filter-item">
+                        <button data-filter-btn>Android</button>
+                    </li>
+
+                    <li class="filter-item">
+                        <button data-filter-btn>Backend</button>
+                    </li>
+
+                    <li class="filter-item">
+                        <button data-filter-btn>Web</button>
+                    </li>
+                </ul> -->
+
+                <div class="filter-select-box">
+
+                    <button class="filter-select" data-select>
+
+                        <div class="select-valu" data-select-value>Select category</div>
+
+                        <div class="select-icon">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+
+                    </button>
+
+                    <ul class="select-list">
+
+                        <li class="select-item">
+                            <button data-select-item>All</button>
+                        </li>
+
+                        <li class="select-item">
+                            <button data-select-item>Android</button>
+                        </li>
+
+                        <li class="select-item">
+                            <button data-select-item>Backend</button>
+                        </li>
+
+                        <li class="select-item">
+                            <button data-select-item>Web</button>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <!-- <ul class="project-list">
+
+                    <li class="project-item active" data-filter-item data-category="android">
+                        <a href="https://github.com/sidharth-085/BudgetBee" target="_blank">
+                            <figure class="project-img">
+                                <div class="project-item-icon-box">
+                                    <i class="fa-regular fa-eye"></i>
+                                </div>
+
+                                <img src="img/project-budgetbee.png" loading="eager">
+                            </figure> 
+
+                            <h3 class="project-title">BudgetBee - Easy Budgeting</h3>
+                            <p class="project-category">Android</p>
+                        </a>
+                    </li>
+
+                    <li class="project-item active" data-filter-item data-category="android">
+                        <a href="https://github.com/sidharth-085/Encrypto" target="_blank">
+                            <figure class="project-img">
+                                <div class="project-item-icon-box">
+                                    <i class="fa-regular fa-eye"></i>
+                                </div>
+
+                                <img src="img/project-encrypto.png" loading="eager">
+                            </figure> 
+
+                            <h3 class="project-title">Encrypto - Safe & Secure</h3>
+                            <p class="project-category">Android</p>
+                        </a>
+                    </li>
+
+                    <li class="project-item active" data-filter-item data-category="android">
+                        <a href="https://github.com/sidharth-085/Cinesphere" target="_blank">
+                            <figure class="project-img">
+                                <div class="project-item-icon-box">
+                                    <i class="fa-regular fa-eye"></i>
+                                </div>
+
+                                <img src="img/project-cinesphere.png" loading="eager">
+                            </figure> 
+
+                            <h3 class="project-title">Cinsphere - Discover Movies</h3>
+                            <p class="project-category">Android</p>
+                        </a>
+                    </li>
+
+                    <li class="project-item active" data-filter-item data-category="android">
+                        <a href="https://github.com/sidharth-085/Kaviar-News-App" target="_blank">
+                            <figure class="project-img">
+                                <div class="project-item-icon-box">
+                                    <i class="fa-regular fa-eye"></i>
+                                </div>
+
+                                <img src="img/project-kaviar.png" loading="eager">
+                            </figure> 
+
+                            <h3 class="project-title">Kaviar - Bites of Global News</h3>
+                            <p class="project-category">Android</p>
+                        </a>
+                    </li>
+                    
+                    <li class="project-item active" data-filter-item data-category="android">
+                        <a href="https://github.com/sidharth-085/DishBook" target="_blank">
+                            <figure class="project-img">
+                                <div class="project-item-icon-box">
+                                    <i class="fa-regular fa-eye"></i>
+                                </div>
+
+                                <img src="img/project-dishbook.png" loading="eager">
+                            </figure> 
+
+                            <h3 class="project-title">DishBook - Cook, Share, Enjoy</h3>
+                            <p class="project-category">Android</p>
+                        </a>
+                    </li>
+
+                    <li class="project-item active" data-filter-item data-category="web">
+                        <a href="https://github.com/sidharth-085/Portfolio-Website" target="_blank">
+                            <figure class="project-img">
+                                <div class="project-item-icon-box">
+                                    <i class="fa-regular fa-eye"></i>
+                                </div>
+
+                                <img src="img/project-portfolio.png" loading="eager">
+                            </figure> 
+
+                            <h3 class="project-title">Portfolio Website</h3>
+                            <p class="project-category">Web</p>
+                        </a>
+                    </li>
+
+                    <li class="project-item active" data-filter-item data-category="backend">
+                        <a href="https://github.com/sidharth-085/Esc-Pos-Ruby" target="_blank">
+                            <figure class="project-img">
+                                <div class="project-item-icon-box">
+                                    <i class="fa-regular fa-eye"></i>
+                                </div>
+
+                                <img src="img/project-esc-pos-ruby.png" loading="eager">
+                            </figure> 
+
+                            <h3 class="project-title">ESC/POS Conversion Library</h3>
+                            <p class="project-category">Backend</p>
+                        </a>
+                    </li>
+
+                </ul> -->
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">
+                                <a href="https://github.com/aparimit03/Feastmate" style="color: white;">Feastmate</a>
+                            </h4>
+                            <span>
+                                Feastmate is a food delivery app that provides user with a seamless interface and restraunts with an admin panel
+                                that helps them track every order and its current status.
+                            </span>
+                        </li>
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">
+                                <a href="https://github.com/aparimit03/QwickTix" style="color: white;">QwickTix</a>
+                            </h4>
+                            <span>
+                                QwickTix is a mobile app for event ticketing and RSVP management using QR codes. It streamlines event creation and
+                                attendance tracking for organisers and attendees. It also increases engagement and convenience through contactless
+                                ticketing and mobile access.
+                            </span>
+                        </li>
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">
+                                <a href="https://github.com/aparimit03/image-carousel-kotlin" style="color: white;">Glyd</a>
+                            </h4>
+
+                            <span>
+                                Glyd is a Image Carousel Library that you can import in your android apps to integrate a carousel that automatically
+                                changes images in intervals of time
+                            </span>
+                        </li>
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">
+                                Eventador
+                            </h4>
+                            <span>
+                                Eventador is a mobile application that fetches events and its details through a real time API that is hosted on Django
+                                and shows them on a page and gives an option to register in those events.
+                                Option filtering is something I will work upon in the future.
+                            </span>
+                        </li>
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">
+                                <a href="https://github.com/aparimit03/real-time-chat-app" style="color: white;">Vibey</a>
+                            </h4>
+                            <span>
+                                Vibey is a Real-Time Chat application made so that users can send and receive messages that use Sender Room and
+                                Receiver Room Encryption and also supports parallel activities by multiple user so many users can chat simultaneously
+                                at the same time.
+                            </span>
+                        </li>
+            </section>
+
+        </article>
+
+        <!-- contact -->
+
+        <article class="contact" data-page="contact">
+
+            <header >
+                <h2 class="h2 article-title">Contact</h2>
+            </header>
+
+            <!-- <section class="mapbox" data-mapbox>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224345.83917242874!2d77.06889908203254!3d28.52728034395305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d01929723a67b%3A0x823bf83e796b993a!2sDelhi%2C%20India!5e0!3m2!1sen!2sin!4v1714286092267!5m2!1sen!2sin"
+                    width="400" height="300" loading="eager">
+                </iframe>
+            </section> -->
+
+            <section class="contact-form">
+                <h3 class="h3 form-title">Contact Form</h3>
+            
+                <form class="form" id="contactForm">
+                    <div class="input-wrapper">
+                        <input type="text" id="fullname" class="form-input" placeholder="Full Name" required>
+                        <input type="email" id="email" class="form-input" placeholder="Email address" required>
+                    </div>
+            
+                    <textarea id="message" class="form-input" placeholder="Your message" required></textarea>
+            
+                    <button class="form-btn" type="submit" id="sendBtn">
+                        <i class="fa-solid fa-paper-plane"></i>
+                        <span>Send Message</span>
+                    </button>
+                </form>
+            </section>
+
+        </article>
+
+    </div>
+
+</main>
+    <!--js link-->
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
