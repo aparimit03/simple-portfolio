@@ -751,7 +751,7 @@ main{
     margin-bottom: 5px;
   }
 
-  .timeline-item:not(:last-child)::before{
+  /* .timeline-item:not(:last-child)::before{
     content: "";
     position: absolute;
     top: -25px;
@@ -759,7 +759,7 @@ main{
     width: 1px;
     height: calc(100% + 50px);
     background: var(--jet);
-  }
+  } */
 
   .timeline-item::after{
     content: "";
@@ -831,7 +831,8 @@ main{
     margin-bottom: 25px;
   }
 
-  .filter-select{
+  /* .filter-select{
+    visibility:unset;
     background: var(--eerie-black-2);
     color: var(--light-gray);
     display: flex;
@@ -843,7 +844,7 @@ main{
     border-radius: 14px;
     font-size: var(--fs-6);
     font-weight: var(--fw-300);
-  }
+  } */
 
   .filter-select.active .select-icon{
     transform: rotate(0.5turn);
@@ -1395,11 +1396,11 @@ main{
     left: -40px;
   }
 
-  .timeline-item::after{
+  /* .timeline-item::after{
     height: 8px;
     width: 8px;
     left: -43px;
-  }
+  } */
 
   .skills-item:not(:last-child){
     margin-bottom: 25px;
